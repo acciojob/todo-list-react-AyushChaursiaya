@@ -52,7 +52,7 @@ const ListApp = () => {
         />
         <button onClick={AddElementList}>Add</button>
       </div>
-      <div className="task_section">
+      <div className="tasks_section">
         {taskList.map((task, index) => {
           return (
             <div key={index} className="task">

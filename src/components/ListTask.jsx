@@ -68,8 +68,8 @@ const ListApp = () => {
                 </>
               ) : (
                 <>
-                  <p>{task}</p>
-                  <button onClick={() => editingElement(index)}>Edit</button>
+                  <p className="textarea">{task}</p>
+                  <button onClick={() => editingElement(index)} className="edit">Edit</button>
                   <button onClick={() => deleteTaskElement(index)} className="delete">
                     Delete
                   </button>
